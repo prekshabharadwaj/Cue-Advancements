@@ -1,0 +1,24 @@
+# UI
+PySide6>=6.8,<7
+
+# LangChain core
+langchain>=0.3,<0.4
+langchain-core>=0.3,<0.4
+langchain-community>=0.3,<0.4
+langchain-openai>=0.2,<0.3
+langchain-text-splitters>=0.3,<0.4
+
+# Vector store
+faiss-cpu>=1.8
+
+# Document loaders
+pypdf>=4.0            # PDF support
+docx2txt>=0.8         # DOCX support
+unstructured>=0.15    # Markdown support
+
+# OpenAI SDK (used by langchain-openai)
+openai>=1.0
+
+# Environment & packaging
+python-dotenv
+pyinstaller>=6.0
