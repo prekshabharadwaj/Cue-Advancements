@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+
+# Storage and runtime data
+storage/*.json
+!storage/.gitkeep
+
+# FAISS vector index (generated at runtime)
+data/vectorstore/*.faiss
+data/vectorstore/*.pkl
+
+# LangChain / OpenAI cache
+.langchain.db
+
+# PyInstaller build artefacts
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+*.exe
